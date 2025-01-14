@@ -1,0 +1,20 @@
+POST http://localhost:8080/api/students
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNzM2ODMwNjk5LCJleHAiOjE3Mzk0MjI2OTl9.HTGPe_hzXBifwFEpUh6K4zj_ddLhphA1vWuVDizysn8
+
+{
+    "data":{
+        "name": "Thitika Raluek",
+        "mobile": "0617973301",
+        "cardId": "1189900342353"
+    }
+}
+
+{
+    "data":{
+        "name": "Thanachai Loklueng",
+        "mobile": "0943301218",
+        "cardId": "1600101914175"
+    }
+}
+
